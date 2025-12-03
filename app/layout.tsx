@@ -1,13 +1,13 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import "./globals.css"
+import type React from "react";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import "./globals.css";
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const _geist = Geist({ subsets: ["latin"] });
+const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Infinity2Chrome - Infinity 新标签页书签迁移工具 | 安全导出到 Chrome",
@@ -58,24 +58,25 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang='zh-CN'>
       <head>
-        <link rel="canonical" href="https://infinity2chrome.vercel.app" />
+        <meta name='google-site-verification' content='fmgce_RNpeUSw6KWbPoH5ifqwZ1LL_cXuQ2Huac8ttE' />
+        <link rel='canonical' href='https://infinity2chrome.vercel.app' />
       </head>
       <body className={`font-sans antialiased flex min-h-screen flex-col`}>
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className='flex-1'>{children}</main>
         <Footer />
         <Analytics />
       </body>
     </html>
-  )
+  );
 }

@@ -25,6 +25,12 @@ export function Header() {
           >
             关于
           </Link>
+          <Link
+            href="/changelog"
+            className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+          >
+            更新日志
+          </Link>
           <a
             href="https://github.com/extrastu/Infinity2Chrome"
             target="_blank"
