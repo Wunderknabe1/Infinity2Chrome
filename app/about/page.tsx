@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Chrome, Shield, Code, ExternalLink, Lock, Upload, Download, Sparkles, Github } from "lucide-react"
+import { Chrome, Shield, Code, ExternalLink, Lock, Upload, Download, Sparkles, Github, User } from "lucide-react"
 
 export const metadata = {
   title: "关于 - Infinity2Chrome | 书签迁移工具",
@@ -206,6 +206,28 @@ export default function AboutPage() {
                 <Sparkles className="h-4 w-4" />
                 体验 v0 AI 开发
                 <ExternalLink className="h-3 w-3" />
+              </Button>
+            </a>
+          </CardContent>
+        </Card>
+
+        {/* 创作者 */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <User className="h-5 w-5 text-primary" />
+              创作者
+            </CardTitle>
+            <CardDescription>项目开发者</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <p className="text-muted-foreground leading-relaxed">
+              由 extrastu 开发维护，致力于为用户提供安全可靠的书签迁移解决方案。
+            </p>
+            <a href="https://aivibe.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="gap-2 bg-transparent">
+                <ExternalLink className="h-4 w-4" />
+                访问创作者主页
               </Button>
             </a>
           </CardContent>

@@ -73,6 +73,17 @@ export function Footer() {
               </li>
               <li>
                 <a
+                  href="https://aivibe.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 hover:text-foreground transition-colors"
+                >
+                  创作者
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://meta.appinn.net/t/topic/78159"
                   target="_blank"
                   rel="noopener noreferrer"
